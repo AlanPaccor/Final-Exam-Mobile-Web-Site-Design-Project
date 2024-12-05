@@ -1,0 +1,66 @@
+<!-- Name: Alan Paccor
+Date: 12/4/2024
+File: index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Final Project by Alan Paccor">
+        <title>Final Project</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.9.6/lottie.min.js"></script>
+    </head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="title">Coding Society</h1>
+        </header>
+
+        <div class="animation-container">
+            <div id="lottie-container"></div>
+        </div>
+
+        <div class="cta-container">
+            <a href="onboard/"><button class="primary-button">Get Started</button></a>
+        </div>
+
+        <section class="service-section">
+            <h2 class="section-title">Our Service</h2>
+            <p class="service-description">
+                Code Society is a simple app offering curated tasks, resources, and videos to help you learn coding efficiently. Explore step-by-step guides, watch expert tutorials, and access useful tools to kickstart your programming journey!
+            </p>
+        </section>
+
+        <section class="features-section">
+            <h2 class="section-title">Our Features</h2>
+            <ul class="features-list">
+                <li>Curated Learning Tasks</li>
+                <li>Video Tutorials</li>
+                <li>Resources Library</li>
+                <li>Progress Tracking</li>
+                <li>Mobile-Friendly Design</li>
+                <li>Beginner-Friendly Content</li>
+                <li>Quick Links</li>
+                <li>Daily Code Challenges</li>
+            </ul>
+        </section>
+
+        <div class="contact-container">
+            <a href="contact/"><button class="contact-button">Get In Contact</button></a>
+        </div>
+    </div>
+
+    <script>
+        const animation = lottie.loadAnimation({
+            container: document.getElementById('lottie-container'),
+            renderer: 'svg',
+            loop: true,
+            autoplay: true,
+            path: 'Assets/Animation - 1733360176549.json'
+        });
+    </script>
+</body>
+</html>

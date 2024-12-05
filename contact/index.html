@@ -1,0 +1,38 @@
+<!-- Name: Alan Paccor
+Date: 12/4/2024
+File: styles.css -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Final Project by Alan Paccor">
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.9.6/lottie.min.js"></script>
+    </head>
+<body>
+    <div class="container">
+        <h1>Reach Out to Us!</h1>
+        
+        <div class="email-icon" id="lottie-container"></div>
+        
+        <form class="contact-form">
+            <input type="email" placeholder="Enter your email" required>
+            <textarea placeholder="Enter your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+    <script>
+        var animation = lottie.loadAnimation({
+            container: document.getElementById('lottie-container'),
+            renderer: 'svg',
+            loop: true,
+            autoplay: true,
+            path: '../Assets/Animation - 1733360851692.json'
+        });
+    </script>
+</body>
+</html>
