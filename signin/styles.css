@@ -1,3 +1,7 @@
+/* Name: Alan Paccor
+Date: 12/5/2024
+File: signin/styles.css */
+
 * {
     margin: 0;
     padding: 0;
@@ -120,7 +124,6 @@ body {
     }
 }
 
-/* Add fade-in animation at the top */
 @keyframes fadeIn {
     from {
         opacity: 0;

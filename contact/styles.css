@@ -1,3 +1,7 @@
+/* Name: Alan Paccor
+Date: 12/5/2024
+File: contact/styles.css */
+
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +14,6 @@ body {
     background-color: #fff;
 }
 
-/* Add fade-in animation at the top */
 @keyframes fadeIn {
     from {
         opacity: 0;

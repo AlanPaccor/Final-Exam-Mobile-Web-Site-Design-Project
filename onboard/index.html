@@ -1,6 +1,6 @@
 <!-- Name: Alan Paccor
-Date: 12/4/2024
-File: styles.css -->
+Date: 12/5/2024
+File: onboard/index.html -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -44,11 +44,8 @@ File: styles.css -->
             path: '../Assets/Animation - 1733360805929.json'
         });
 
-        // Add form submission handler
         document.getElementById('registrationForm').addEventListener('submit', function(e) {
-            e.preventDefault(); // Prevent default form submission
-            // Here you would typically handle the form data and user registration
-            // For now, we'll just redirect to the signin page
+            e.preventDefault();
             window.location.href = '../signin/';
         });
     </script>
