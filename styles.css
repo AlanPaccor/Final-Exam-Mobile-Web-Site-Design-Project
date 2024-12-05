@@ -45,6 +45,7 @@ header {
 }
 
 .primary-button, .contact-button {
+    display: inline-block;
     background-color: #1a237e;
     width: 100%;
     padding: 1rem;
@@ -58,6 +59,7 @@ header {
     box-shadow: 0 4px 6px rgba(74, 21, 75, 0.2);
     transition: all 0.3s ease;
     text-align: center;
+    text-decoration: none;
 }
 .primary-button:hover, .contact-button:hover {
     transform: translateY(-2px);
